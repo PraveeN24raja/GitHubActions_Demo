@@ -1,0 +1,18 @@
+name: name of workflow
+on: 
+  push :
+    branches: main
+    # any push happening on my main branch workflow will get triggered
+
+jobs:
+  echo-hello-job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: name of the action
+        run: "welcome to GitHub Actions"
+  name-of-job2: 
+    runs-on: windows-latest
+    steps:
+      - name: name of second action
+        run: "welcome to action Git"
+       

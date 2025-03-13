@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: name of the action
-        run: "welcome to GitHub Actions"
+        run: echo "welcome to GitHub Actions"
   name-of-job2: 
     runs-on: windows-latest
     steps:
       - name: name of second action
-        run: "welcome to action Git"
+        run: echo "welcome to action Git"
        
